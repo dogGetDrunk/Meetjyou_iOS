@@ -8,11 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		3637A45D2D44A7DB0052B501 /* meetjyouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */; };
+		365B9A4E2D44D1FA004F1AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365B9A492D44D1FA004F1AB0 /* Assets.xcassets */; };
+		365B9A4F2D44D1FA004F1AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365B9A4A2D44D1FA004F1AB0 /* Preview Assets.xcassets */; };
+		365B9A502D44D1FA004F1AB0 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B9A452D44D1FA004F1AB0 /* Color+.swift */; };
+		365B9A512D44D1FA004F1AB0 /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B9A462D44D1FA004F1AB0 /* Font+.swift */; };
+		365B9A522D44D1FA004F1AB0 /* MeetjyouColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B9A472D44D1FA004F1AB0 /* MeetjyouColor.swift */; };
+		365B9A572D44D24C004F1AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B9A552D44D24C004F1AB0 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3637A4592D44A7DB0052B501 /* meetjyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meetjyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetjyouApp.swift; sourceTree = "<group>"; };
+		365B9A452D44D1FA004F1AB0 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		365B9A462D44D1FA004F1AB0 /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
+		365B9A472D44D1FA004F1AB0 /* MeetjyouColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetjyouColor.swift; sourceTree = "<group>"; };
+		365B9A492D44D1FA004F1AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		365B9A4A2D44D1FA004F1AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		365B9A552D44D24C004F1AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -24,16 +36,6 @@
 		365B9A232D44D014004F1AB0 /* Config */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Config;
-			sourceTree = "<group>";
-		};
-		365B9A282D44D01A004F1AB0 /* Extension */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		365B9A312D44D040004F1AB0 /* meetjyou */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = meetjyou;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,11 +54,9 @@
 		3637A4502D44A7DB0052B501 = {
 			isa = PBXGroup;
 			children = (
-				3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */,
-				365B9A282D44D01A004F1AB0 /* Extension */,
 				365B9A232D44D014004F1AB0 /* Config */,
 				365B9A182D44D00A004F1AB0 /* Resource */,
-				365B9A312D44D040004F1AB0 /* meetjyou */,
+				365B9A4D2D44D1FA004F1AB0 /* meetjyou */,
 				3637A45A2D44A7DB0052B501 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +67,44 @@
 				3637A4592D44A7DB0052B501 /* meetjyou.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		365B9A482D44D1FA004F1AB0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				365B9A452D44D1FA004F1AB0 /* Color+.swift */,
+				365B9A462D44D1FA004F1AB0 /* Font+.swift */,
+				365B9A472D44D1FA004F1AB0 /* MeetjyouColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		365B9A4B2D44D1FA004F1AB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				365B9A492D44D1FA004F1AB0 /* Assets.xcassets */,
+				365B9A4A2D44D1FA004F1AB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		365B9A4D2D44D1FA004F1AB0 /* meetjyou */ = {
+			isa = PBXGroup;
+			children = (
+				3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */,
+				365B9A482D44D1FA004F1AB0 /* Extension */,
+				365B9A562D44D24C004F1AB0 /* View */,
+				365B9A4B2D44D1FA004F1AB0 /* Preview Content */,
+			);
+			path = meetjyou;
+			sourceTree = "<group>";
+		};
+		365B9A562D44D24C004F1AB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				365B9A552D44D24C004F1AB0 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,8 +125,6 @@
 			fileSystemSynchronizedGroups = (
 				365B9A182D44D00A004F1AB0 /* Resource */,
 				365B9A232D44D014004F1AB0 /* Config */,
-				365B9A282D44D01A004F1AB0 /* Extension */,
-				365B9A312D44D040004F1AB0 /* meetjyou */,
 			);
 			name = meetjyou;
 			packageProductDependencies = (
@@ -136,6 +172,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365B9A4E2D44D1FA004F1AB0 /* Assets.xcassets in Resources */,
+				365B9A4F2D44D1FA004F1AB0 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365B9A502D44D1FA004F1AB0 /* Color+.swift in Sources */,
+				365B9A572D44D24C004F1AB0 /* ContentView.swift in Sources */,
+				365B9A512D44D1FA004F1AB0 /* Font+.swift in Sources */,
+				365B9A522D44D1FA004F1AB0 /* MeetjyouColor.swift in Sources */,
 				3637A45D2D44A7DB0052B501 /* meetjyouApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
