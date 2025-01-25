@@ -16,7 +16,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3637A45B2D44A7DB0052B501 /* meetjyou */ = {
+		365B9A182D44D00A004F1AB0 /* Resource */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		365B9A232D44D014004F1AB0 /* Config */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Config;
+			sourceTree = "<group>";
+		};
+		365B9A282D44D01A004F1AB0 /* Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		365B9A312D44D040004F1AB0 /* meetjyou */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = meetjyou;
 			sourceTree = "<group>";
@@ -38,7 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */,
-				3637A45B2D44A7DB0052B501 /* meetjyou */,
+				365B9A282D44D01A004F1AB0 /* Extension */,
+				365B9A232D44D014004F1AB0 /* Config */,
+				365B9A182D44D00A004F1AB0 /* Resource */,
+				365B9A312D44D040004F1AB0 /* meetjyou */,
 				3637A45A2D44A7DB0052B501 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +85,10 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3637A45B2D44A7DB0052B501 /* meetjyou */,
+				365B9A182D44D00A004F1AB0 /* Resource */,
+				365B9A232D44D014004F1AB0 /* Config */,
+				365B9A282D44D01A004F1AB0 /* Extension */,
+				365B9A312D44D040004F1AB0 /* meetjyou */,
 			);
 			name = meetjyou;
 			packageProductDependencies = (
