@@ -9,8 +9,9 @@ import SwiftUI
 
 @main
 struct meetjyouApp: App {
+
     var body: some Scene {
-        WindowGroup {
+        WindowGroup { // WindowGroup은 Scene의 구현체입니다.
             ContentView()
         }
     }
