@@ -8,15 +8,15 @@ import SwiftUI
 
 extension Font {
     enum FontWeight: String {
-        case black = "Pretendard-Black"
-        case bold = "Pretendard-Bold"
-        case extraBold = "Pretendard-ExtraBold"
-        case extraLight = "Pretendard-ExtraLight"
-        case light = "Pretendard-Light"
-        case medium = "Pretendard-Medium"
-        case regular = "Pretendard-Regular"
-        case semiBold = "Pretendard-SemiBold"
-        case thin = "Pretendard-Thin"
+        case black = "Pretendard-Black"           // 900
+        case bold = "Pretendard-Bold"             // 700
+        case extraBold = "Pretendard-ExtraBold"   // 800
+        case extraLight = "Pretendard-ExtraLight" // 200
+        case light = "Pretendard-Light"           // 300
+        case medium = "Pretendard-Medium"         // 500
+        case regular = "Pretendard-Regular"       // 400
+        case semiBold = "Pretendard-SemiBold"     // 600
+        case thin = "Pretendard-Thin"             // 100
     }
 
     static func createFont(weight: FontWeight, size: CGFloat) -> Font {
