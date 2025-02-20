@@ -11,7 +11,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Hello, world!")
+            Image("강원도id ")
                 .font(.createFont(weight: .black, size: 40))
                 .foregroundStyle(primaryColor.p100)
             
@@ -19,8 +19,3 @@ struct ContentView: View {
         .padding()
     }
 }
-
-#Preview {
-    ContentView()
-}
-
