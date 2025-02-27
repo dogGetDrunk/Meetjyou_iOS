@@ -42,7 +42,8 @@ struct OnboardingView: View {
                         .frame(width: 8, height: 8)
                 }
             }
-        
+            .animation(.easeInOut(duration: 0.3), value: currentPage)
+            
             if currentPage == 2 {
                 VStack(spacing: 0) {
                     Button {
@@ -89,8 +90,6 @@ struct OnboardingView: View {
     }
 }
 
-
-
 #Preview {
     OnboardingView()
 }
@@ -104,11 +103,11 @@ struct FirstOnboarding: View {
                 .frame(width: 284, height: 274)
                 .background(Color.black)
                 .clipShape(RoundedRectangle(cornerRadius: 24)) // 모서리 잘라내기
-                .padding(.bottom, 27)
+                .padding(.bottom, 27.5)
 
             Text("안녕하세요!")
                 .font(.createFont(weight: .regular, size: 25.5))
-                .padding(.bottom, 15)
+                .padding(.bottom, 16)
             Text("저는 만쥬에요 만나서 반가워요!")
                 .font(.createFont(weight: .regular, size: 17))
                 .foregroundStyle(CustomColor.grayColor.g500)
@@ -130,10 +129,11 @@ struct SecondOnboarding: View {
                 .frame(width: 284, height: 274)
                 .background(Color.black)
                 .clipShape(RoundedRectangle(cornerRadius: 24))
-                .padding(.bottom, 27)
+                .padding(.bottom, 27.5)
+            
             Text("함께 떠나는 여행, 즐거움이 두 배!")
                 .font(.createFont(weight: .regular, size: 25.5))
-                .padding(.bottom, 15)
+                .padding(.bottom, 16)
             Text("다양한 사람들과 여행을 계획하고")
                 .font(.createFont(weight: .regular, size: 17))
                 .foregroundStyle(CustomColor.grayColor.g500)
