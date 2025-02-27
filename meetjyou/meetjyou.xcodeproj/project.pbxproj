@@ -10,6 +10,17 @@
 		3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */; };
 		361F4E7D2D472A0B00C89F28 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 361F4E7C2D472A0B00C89F28 /* ComposableArchitecture */; };
 		3637A45D2D44A7DB0052B501 /* meetjyouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */; };
+		3647EB2E2D70264B00FB5D1A /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 3647EB2D2D70264B00FB5D1A /* KakaoSDK */; };
+		3647EB322D7026B700FB5D1A /* KakaoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647EB2F2D70269300FB5D1A /* KakaoFeature.swift */; };
+		3647EB3E2D70294300FB5D1A /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB332D70294300FB5D1A /* Pretendard-Black.otf */; };
+		3647EB3F2D70294300FB5D1A /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB342D70294300FB5D1A /* Pretendard-Bold.otf */; };
+		3647EB402D70294300FB5D1A /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB352D70294300FB5D1A /* Pretendard-ExtraBold.otf */; };
+		3647EB412D70294300FB5D1A /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB362D70294300FB5D1A /* Pretendard-ExtraLight.otf */; };
+		3647EB422D70294300FB5D1A /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB372D70294300FB5D1A /* Pretendard-Light.otf */; };
+		3647EB432D70294300FB5D1A /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB382D70294300FB5D1A /* Pretendard-Medium.otf */; };
+		3647EB442D70294300FB5D1A /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB392D70294300FB5D1A /* Pretendard-Regular.otf */; };
+		3647EB452D70294300FB5D1A /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB3A2D70294300FB5D1A /* Pretendard-SemiBold.otf */; };
+		3647EB462D70294300FB5D1A /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB3B2D70294300FB5D1A /* Pretendard-Thin.otf */; };
 		365B9A4E2D44D1FA004F1AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365B9A492D44D1FA004F1AB0 /* Assets.xcassets */; };
 		365B9A4F2D44D1FA004F1AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365B9A4A2D44D1FA004F1AB0 /* Preview Assets.xcassets */; };
 		365B9A502D44D1FA004F1AB0 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B9A452D44D1FA004F1AB0 /* Color+.swift */; };
@@ -22,6 +33,18 @@
 		3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3637A4592D44A7DB0052B501 /* meetjyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meetjyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetjyouApp.swift; sourceTree = "<group>"; };
+		3647EB2B2D70245200FB5D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3647EB2F2D70269300FB5D1A /* KakaoFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoFeature.swift; sourceTree = "<group>"; };
+		3647EB332D70294300FB5D1A /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		3647EB342D70294300FB5D1A /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		3647EB352D70294300FB5D1A /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		3647EB362D70294300FB5D1A /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		3647EB372D70294300FB5D1A /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		3647EB382D70294300FB5D1A /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		3647EB392D70294300FB5D1A /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		3647EB3A2D70294300FB5D1A /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		3647EB3B2D70294300FB5D1A /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		3647EB522D7030F600FB5D1A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		365B9A452D44D1FA004F1AB0 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		365B9A462D44D1FA004F1AB0 /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		365B9A472D44D1FA004F1AB0 /* MeetjyouColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetjyouColor.swift; sourceTree = "<group>"; };
@@ -30,25 +53,13 @@
 		365B9A552D44D24C004F1AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		365B9A182D44D00A004F1AB0 /* Resource */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		365B9A232D44D014004F1AB0 /* Config */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Config;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		3637A4562D44A7DB0052B501 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				361F4E7D2D472A0B00C89F28 /* ComposableArchitecture in Frameworks */,
+				3647EB2E2D70264B00FB5D1A /* KakaoSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +69,8 @@
 		3637A4502D44A7DB0052B501 = {
 			isa = PBXGroup;
 			children = (
-				365B9A232D44D014004F1AB0 /* Config */,
-				365B9A182D44D00A004F1AB0 /* Resource */,
+				3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */,
+				3647EB3D2D70294300FB5D1A /* Resource */,
 				365B9A4D2D44D1FA004F1AB0 /* meetjyou */,
 				3637A45A2D44A7DB0052B501 /* Products */,
 			);
@@ -71,6 +82,38 @@
 				3637A4592D44A7DB0052B501 /* meetjyou.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3647EB3C2D70294300FB5D1A /* Pretendard */ = {
+			isa = PBXGroup;
+			children = (
+				3647EB332D70294300FB5D1A /* Pretendard-Black.otf */,
+				3647EB342D70294300FB5D1A /* Pretendard-Bold.otf */,
+				3647EB352D70294300FB5D1A /* Pretendard-ExtraBold.otf */,
+				3647EB362D70294300FB5D1A /* Pretendard-ExtraLight.otf */,
+				3647EB372D70294300FB5D1A /* Pretendard-Light.otf */,
+				3647EB382D70294300FB5D1A /* Pretendard-Medium.otf */,
+				3647EB392D70294300FB5D1A /* Pretendard-Regular.otf */,
+				3647EB3A2D70294300FB5D1A /* Pretendard-SemiBold.otf */,
+				3647EB3B2D70294300FB5D1A /* Pretendard-Thin.otf */,
+			);
+			path = Pretendard;
+			sourceTree = "<group>";
+		};
+		3647EB3D2D70294300FB5D1A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3647EB3C2D70294300FB5D1A /* Pretendard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3647EB482D7029D200FB5D1A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3647EB522D7030F600FB5D1A /* Config.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		365B9A482D44D1FA004F1AB0 /* Extension */ = {
@@ -95,7 +138,8 @@
 		365B9A4D2D44D1FA004F1AB0 /* meetjyou */ = {
 			isa = PBXGroup;
 			children = (
-				3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */,
+				3647EB2B2D70245200FB5D1A /* Info.plist */,
+				3647EB482D7029D200FB5D1A /* Config */,
 				365B9A482D44D1FA004F1AB0 /* Extension */,
 				365B9A562D44D24C004F1AB0 /* View */,
 				365B9A4B2D44D1FA004F1AB0 /* Preview Content */,
@@ -106,6 +150,7 @@
 		365B9A562D44D24C004F1AB0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3647EB2F2D70269300FB5D1A /* KakaoFeature.swift */,
 				3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */,
 				365B9A552D44D24C004F1AB0 /* ContentView.swift */,
 			);
@@ -127,13 +172,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				365B9A182D44D00A004F1AB0 /* Resource */,
-				365B9A232D44D014004F1AB0 /* Config */,
-			);
 			name = meetjyou;
 			packageProductDependencies = (
 				361F4E7C2D472A0B00C89F28 /* ComposableArchitecture */,
+				3647EB2D2D70264B00FB5D1A /* KakaoSDK */,
 			);
 			productName = meetjyou;
 			productReference = 3637A4592D44A7DB0052B501 /* meetjyou.app */;
@@ -165,6 +207,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				361F4E7B2D472A0B00C89F28 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				3647EB2C2D70264B00FB5D1A /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3637A45A2D44A7DB0052B501 /* Products */;
@@ -182,6 +225,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				365B9A4E2D44D1FA004F1AB0 /* Assets.xcassets in Resources */,
+				3647EB3E2D70294300FB5D1A /* Pretendard-Black.otf in Resources */,
+				3647EB3F2D70294300FB5D1A /* Pretendard-Bold.otf in Resources */,
+				3647EB402D70294300FB5D1A /* Pretendard-ExtraBold.otf in Resources */,
+				3647EB412D70294300FB5D1A /* Pretendard-ExtraLight.otf in Resources */,
+				3647EB422D70294300FB5D1A /* Pretendard-Light.otf in Resources */,
+				3647EB432D70294300FB5D1A /* Pretendard-Medium.otf in Resources */,
+				3647EB442D70294300FB5D1A /* Pretendard-Regular.otf in Resources */,
+				3647EB452D70294300FB5D1A /* Pretendard-SemiBold.otf in Resources */,
+				3647EB462D70294300FB5D1A /* Pretendard-Thin.otf in Resources */,
 				365B9A4F2D44D1FA004F1AB0 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +247,7 @@
 			files = (
 				365B9A502D44D1FA004F1AB0 /* Color+.swift in Sources */,
 				365B9A572D44D24C004F1AB0 /* ContentView.swift in Sources */,
+				3647EB322D7026B700FB5D1A /* KakaoFeature.swift in Sources */,
 				365B9A512D44D1FA004F1AB0 /* Font+.swift in Sources */,
 				3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */,
 				365B9A522D44D1FA004F1AB0 /* MeetjyouColor.swift in Sources */,
@@ -326,6 +379,7 @@
 		};
 		3637A4682D44A7DC0052B501 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3647EB522D7030F600FB5D1A /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -335,6 +389,7 @@
 				DEVELOPMENT_TEAM = DZLBBL27FT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = meetjyou/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,6 +414,7 @@
 		};
 		3637A4692D44A7DC0052B501 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3647EB522D7030F600FB5D1A /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -368,6 +424,7 @@
 				DEVELOPMENT_TEAM = DZLBBL27FT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = meetjyou/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,6 +479,14 @@
 				minimumVersion = 1.17.1;
 			};
 		};
+		3647EB2C2D70264B00FB5D1A /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -429,6 +494,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 361F4E7B2D472A0B00C89F28 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		3647EB2D2D70264B00FB5D1A /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3647EB2C2D70264B00FB5D1A /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
