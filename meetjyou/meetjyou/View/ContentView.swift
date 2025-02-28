@@ -13,7 +13,6 @@ struct ContentView: View {
         VStack {
             Image("강원도id ")
                 .font(.createFont(weight: .black, size: 40))
-            
         }
         .padding()
     }

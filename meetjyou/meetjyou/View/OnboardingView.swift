@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct OnboardingView: View {
+    let store: StoreOf<KakaoFeature>
     @State private var currentPage = 0
     @State private var isAppeared = false
 
@@ -47,9 +49,9 @@ struct OnboardingView: View {
             if currentPage == 2 {
                 VStack(spacing: 0) {
                     Button {
-                        
+                        store.send(.kakaoTest)
                     } label: {
-                        Text("asd")
+                        Text("카카오로")
                             .background(Color.black)
                     }
                     .frame(width: 350, height: 54)
@@ -89,10 +91,10 @@ struct OnboardingView: View {
         }
     }
 }
-
-#Preview {
-    OnboardingView()
-}
+//
+//#Preview {
+//    OnboardingView()
+//}
 
 struct FirstOnboarding: View {
     var body: some View {
