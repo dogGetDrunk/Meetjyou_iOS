@@ -106,3 +106,5 @@ iOSInjectionProject/
 **/xcshareddate/WorkspaceSettings.xcsettings
 # End of https://www.toptal.com/developers/gitignore/api/xcode
 *.xcconfig
+*.xcconfig
+meetjyou/meetjyou/Config.xcconfig

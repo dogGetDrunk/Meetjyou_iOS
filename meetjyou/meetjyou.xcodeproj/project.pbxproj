@@ -108,14 +108,6 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		3647EB482D7029D200FB5D1A /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				3647EB522D7030F600FB5D1A /* Config.xcconfig */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
 		365B9A482D44D1FA004F1AB0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				3647EB2B2D70245200FB5D1A /* Info.plist */,
-				3647EB482D7029D200FB5D1A /* Config */,
+				3647EB522D7030F600FB5D1A /* Config.xcconfig */,
 				365B9A482D44D1FA004F1AB0 /* Extension */,
 				365B9A562D44D24C004F1AB0 /* View */,
 				365B9A4B2D44D1FA004F1AB0 /* Preview Content */,
