@@ -53,19 +53,6 @@
 		FE39AE7D2D79C7C80035F130 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3600B30A2D79CB9400140FEE /* Sign */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Sign;
-			sourceTree = "<group>";
-		};
-		3600B30B2D79CB9A00140FEE /* Mypage */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Mypage;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		3637A4562D44A7DB0052B501 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -79,6 +66,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3600B30C2D79CC0B00140FEE /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		3600B30D2D79CC0C00140FEE /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
 		3637A4502D44A7DB0052B501 = {
 			isa = PBXGroup;
 			children = (
@@ -155,8 +156,8 @@
 		365B9A562D44D24C004F1AB0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3600B30A2D79CB9400140FEE /* Sign */,
-				3600B30B2D79CB9A00140FEE /* Mypage */,
+				3600B30C2D79CC0B00140FEE /* Sign */,
+				3600B30D2D79CC0C00140FEE /* Mypage */,
 				3647EB2F2D70269300FB5D1A /* KakaoFeature.swift */,
 				3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */,
 				365B9A552D44D24C004F1AB0 /* ContentView.swift */,
@@ -178,10 +179,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				3600B30A2D79CB9400140FEE /* Sign */,
-				3600B30B2D79CB9A00140FEE /* Mypage */,
 			);
 			name = meetjyou;
 			packageProductDependencies = (
