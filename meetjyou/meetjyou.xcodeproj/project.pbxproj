@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3600B30F2D79CD0E00140FEE /* s.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3600B30E2D79CD0C00140FEE /* s.swift */; };
 		3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */; };
 		361F4E7D2D472A0B00C89F28 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 361F4E7C2D472A0B00C89F28 /* ComposableArchitecture */; };
 		3637A45D2D44A7DB0052B501 /* meetjyouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3600B30E2D79CD0C00140FEE /* s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s.swift; sourceTree = "<group>"; };
 		3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3637A4592D44A7DB0052B501 /* meetjyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meetjyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetjyouApp.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		3600B30C2D79CC0B00140FEE /* Sign */ = {
 			isa = PBXGroup;
 			children = (
+				3647EB2F2D70269300FB5D1A /* KakaoFeature.swift */,
 			);
 			path = Sign;
 			sourceTree = "<group>";
@@ -76,6 +79,7 @@
 		3600B30D2D79CC0C00140FEE /* Mypage */ = {
 			isa = PBXGroup;
 			children = (
+				3600B30E2D79CD0C00140FEE /* s.swift */,
 			);
 			path = Mypage;
 			sourceTree = "<group>";
@@ -158,7 +162,6 @@
 			children = (
 				3600B30C2D79CC0B00140FEE /* Sign */,
 				3600B30D2D79CC0C00140FEE /* Mypage */,
-				3647EB2F2D70269300FB5D1A /* KakaoFeature.swift */,
 				3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */,
 				365B9A552D44D24C004F1AB0 /* ContentView.swift */,
 			);
@@ -258,6 +261,7 @@
 				3647EB322D7026B700FB5D1A /* KakaoFeature.swift in Sources */,
 				365B9A512D44D1FA004F1AB0 /* Font+.swift in Sources */,
 				3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */,
+				3600B30F2D79CD0E00140FEE /* s.swift in Sources */,
 				365B9A522D44D1FA004F1AB0 /* MeetjyouColor.swift in Sources */,
 				3637A45D2D44A7DB0052B501 /* meetjyouApp.swift in Sources */,
 			);
