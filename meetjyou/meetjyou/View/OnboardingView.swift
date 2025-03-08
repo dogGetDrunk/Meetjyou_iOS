@@ -12,7 +12,7 @@ struct OnboardingView: View {
     let store: StoreOf<KakaoFeature>
     @State private var currentPage = 0
     @State private var isAppeared = false
-
+    
     private let pages: [AnyView] = [
         AnyView(
             FirstOnboarding()
@@ -49,31 +49,78 @@ struct OnboardingView: View {
             if currentPage == 2 {
                 VStack(spacing: 0) {
                     Button {
-                        store.send(.kakaoTest)
+                        
                     } label: {
-                        Text("카카오로")
-                            .background(Color.black)
+                        HStack(spacing: 0) {
+                            Image("logo_google")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 24, height: 24)
+                                .padding(.leading, 14)
+                            
+                            Text("구글 계정으로 로그인")
+                                .font(.createFont(weight: .medium, size: 16))
+                                .foregroundStyle(CustomColor.grayColor.g900)
+                                .padding(.leading, 74)
+                            Spacer()
+                            
+                        }
                     }
                     .frame(width: 350, height: 54)
-                    .background(Color.black)
+                    .background(.white)
+                    .cornerRadius(14, corners: .allCorners)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 14)
+                            .stroke(CustomColor.grayColor.g100, lineWidth: 1)
+                    )
+                    .padding(.bottom, 16)
+                    
+                    
+                    
+                    Button {
+                        
+                    } label: {
+                        HStack(spacing: 0) {
+                            Image("logo_kakao")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 23, height: 38)
+                                .padding(.leading, 14)
+                            
+                            Text("카카오 계정으로 로그인")
+                                .font(.createFont(weight: .medium, size: 16))
+                                .foregroundStyle(CustomColor.grayColor.g900)
+                                .padding(.leading, 74)
+                            Spacer()
+                            
+                        }
+                    }
+                    .frame(width: 350, height: 54)
+                    .background(Color(hex: "#F4E70D"))
+                    .cornerRadius(14, corners: .allCorners)
                     .padding(.bottom, 16)
                     
                     Button {
                         
                     } label: {
-                        Text("asd")
+                        HStack(spacing: 0) {
+                            Image("logo_apple")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 23, height: 38)
+                                .padding(.leading, 14)
+                                                            
+                            Text("애플 계정으로 로그인")
+                                .font(.createFont(weight: .medium, size: 16))
+                                .foregroundStyle(.white)
+                                .padding(.leading, 74)
+                            Spacer()
+                            
+                        }
                     }
                     .frame(width: 350, height: 54)
-                    .background(Color.black)
-                    .padding(.bottom, 16)
-                    Button {
-                        
-                    } label: {
-                        Text("asd")
-                            .background(Color.black)
-                    }
-                    .frame(width: 350, height: 54)
-                    .background(Color.black)
+                    .background(CustomColor.grayColor.g900)
+                    .cornerRadius(14, corners: .allCorners)
                     .padding(.bottom, 16)
                 }
                 .padding(.top, 50)
@@ -92,9 +139,13 @@ struct OnboardingView: View {
     }
 }
 //
-//#Preview {
-//    OnboardingView()
-//}
+#Preview {
+    OnboardingView(store: Store(initialState: KakaoFeature.State(), reducer: {
+        
+    }
+                               )
+    )
+}
 
 struct FirstOnboarding: View {
     var body: some View {
@@ -106,7 +157,7 @@ struct FirstOnboarding: View {
                 .background(Color.black)
                 .clipShape(RoundedRectangle(cornerRadius: 24)) // 모서리 잘라내기
                 .padding(.bottom, 27.5)
-
+            
             Text("안녕하세요!")
                 .font(.createFont(weight: .regular, size: 25.5))
                 .padding(.bottom, 16)
@@ -117,7 +168,7 @@ struct FirstOnboarding: View {
             Text("함께 할 멋진 여행을 준비했어요.")
                 .font(.createFont(weight: .regular, size: 17))
                 .foregroundStyle(CustomColor.grayColor.g500)
-                
+            
         }
     }
 }
