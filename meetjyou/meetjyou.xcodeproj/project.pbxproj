@@ -15,7 +15,6 @@
 		3615FEAD2D982B0500731529 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615FEAC2D982AFE00731529 /* View+.swift */; };
 		3615FEB12D982B8E00731529 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615FEB02D982B8600731529 /* RoundedCorner.swift */; };
 		361F4E7D2D472A0B00C89F28 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 361F4E7C2D472A0B00C89F28 /* ComposableArchitecture */; };
-		3637989D2D7C3A2F005BB597 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637989C2D7C3A27005BB597 /* View+.swift */; };
 		3637A45D2D44A7DB0052B501 /* meetjyouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */; };
 		3647EB2E2D70264B00FB5D1A /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 3647EB2D2D70264B00FB5D1A /* KakaoSDK */; };
 		3647EB322D7026B700FB5D1A /* KakaoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647EB2F2D70269300FB5D1A /* KakaoFeature.swift */; };
@@ -46,7 +45,6 @@
 		3615FEA92D982AB400731529 /* RecruitmentCardVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitmentCardVIew.swift; sourceTree = "<group>"; };
 		3615FEAC2D982AFE00731529 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		3615FEB02D982B8600731529 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
-		3637989C2D7C3A27005BB597 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		3637A4592D44A7DB0052B501 /* meetjyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meetjyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetjyouApp.swift; sourceTree = "<group>"; };
 		3647EB2B2D70245200FB5D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,14 +97,6 @@
 				36C2EB6A2D982D7300B0B14E /* View */,
 			);
 			path = Mypage;
-			sourceTree = "<group>";
-		};
-		3615FE942D982A1400731529 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				3637989C2D7C3A27005BB597 /* View+.swift */,
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		3615FE9F2D982A6100731529 /* Button */ = {
@@ -162,7 +152,6 @@
 				3647EB3D2D70294300FB5D1A /* Resource */,
 				365B9A4D2D44D1FA004F1AB0 /* meetjyou */,
 				3637A45A2D44A7DB0052B501 /* Products */,
-				3615FE942D982A1400731529 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -362,7 +351,6 @@
 				3615FEA52D982A6100731529 /* ChipButtonModifier.swift in Sources */,
 				3615FEB12D982B8E00731529 /* RoundedCorner.swift in Sources */,
 				3615FEA72D982A6100731529 /* PopupModifier.swift in Sources */,
-				3637989D2D7C3A2F005BB597 /* View+.swift in Sources */,
 				3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */,
 				3600B30F2D79CD0E00140FEE /* MyPageView.swift in Sources */,
 				365B9A522D44D1FA004F1AB0 /* MeetjyouColor.swift in Sources */,
