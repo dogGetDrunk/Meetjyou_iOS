@@ -27,16 +27,19 @@ struct meetjyouApp: App {
     
     var body: some Scene {
         WindowGroup {
-            OnboardingView(store: kakaoFeature)
-                .onOpenURL { url in
-                    if AuthApi.isKakaoTalkLoginUrl(url) {
-                        print("카카오 성공")
-                        _ = AuthController.handleOpenUrl(url: url)
-                    }
-                }
+//            OnboardingView(store: kakaoFeature)
+//                .onOpenURL { url in
+//                    if AuthApi.isKakaoTalkLoginUrl(url) {
+//                        print("카카오 성공")
+//                        _ = AuthController.handleOpenUrl(url: url)
+//                    }
+//                }
+            
+            /// Sign 뷰
+            ///
+            SignInView()
         }
     }
-    
 }
 
 class AppDelegate: UIResponder, UIApplicationDelegate {

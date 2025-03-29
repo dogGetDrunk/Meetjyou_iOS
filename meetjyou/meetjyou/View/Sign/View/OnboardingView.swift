@@ -150,11 +150,10 @@ struct OnboardingView: View {
 struct FirstOnboarding: View {
     var body: some View {
         VStack(spacing: 0) {
-            Image(systemName: "bolt")
+            Image("OnboardingImage_1")
                 .resizable()
-                .scaledToFill() // 이미지가 뷰를 꽉 채우도록 설정
+                .scaledToFit()
                 .frame(width: 284, height: 274)
-                .background(Color.black)
                 .clipShape(RoundedRectangle(cornerRadius: 24)) // 모서리 잘라내기
                 .padding(.bottom, 27.5)
             
@@ -176,11 +175,10 @@ struct FirstOnboarding: View {
 struct SecondOnboarding: View {
     var body: some View {
         VStack(spacing: 0) {
-            Image(systemName: "bolt")
+            Image("OnboardingImage_2")
                 .resizable()
-                .scaledToFill()
+                .scaledToFit()
                 .frame(width: 284, height: 274)
-                .background(Color.black)
                 .clipShape(RoundedRectangle(cornerRadius: 24))
                 .padding(.bottom, 27.5)
             
@@ -200,10 +198,11 @@ struct SecondOnboarding: View {
 struct ThirdOnboarding: View {
     var body: some View {
         VStack(spacing: 0) {
-            Image(systemName: "bolt")
+            Image("OnboardingImage_3")
+                .resizable()
+                .scaledToFit()
                 .frame(width: 284, height: 274)
                 .cornerRadius(24)
-                .background(.black)
                 .padding(.bottom, 27)
             Text("저와 함계 특별한 동행을 시작해볼까요?")
                 .font(.createFont(weight: .regular, size: 16))
