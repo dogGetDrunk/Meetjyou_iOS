@@ -10,6 +10,7 @@
 		3600B30F2D79CD0E00140FEE /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3600B30E2D79CD0C00140FEE /* MyPageView.swift */; };
 		3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */; };
 		361F4E7D2D472A0B00C89F28 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 361F4E7C2D472A0B00C89F28 /* ComposableArchitecture */; };
+		3637989D2D7C3A2F005BB597 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637989C2D7C3A27005BB597 /* View+.swift */; };
 		3637A45D2D44A7DB0052B501 /* meetjyouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */; };
 		3647EB2E2D70264B00FB5D1A /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 3647EB2D2D70264B00FB5D1A /* KakaoSDK */; };
 		3647EB322D7026B700FB5D1A /* KakaoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647EB2F2D70269300FB5D1A /* KakaoFeature.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		3600B30E2D79CD0C00140FEE /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
 		3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3637989C2D7C3A27005BB597 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		3637A4592D44A7DB0052B501 /* meetjyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meetjyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3637A45C2D44A7DB0052B501 /* meetjyouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetjyouApp.swift; sourceTree = "<group>"; };
 		3647EB2B2D70245200FB5D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				365B9A572D44D24C004F1AB0 /* ContentView.swift in Sources */,
 				3647EB322D7026B700FB5D1A /* KakaoFeature.swift in Sources */,
 				365B9A512D44D1FA004F1AB0 /* Font+.swift in Sources */,
+				3637989D2D7C3A2F005BB597 /* View+.swift in Sources */,
 				3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */,
 				3600B30F2D79CD0E00140FEE /* MyPageView.swift in Sources */,
 				365B9A522D44D1FA004F1AB0 /* MeetjyouColor.swift in Sources */,
