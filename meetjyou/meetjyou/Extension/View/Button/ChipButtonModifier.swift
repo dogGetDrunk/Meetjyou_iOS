@@ -28,8 +28,3 @@ struct ChipButtonModifier: ViewModifier {
     }
 }
 
-extension View {
-    func chipButtonStyle(isSelected: Bool) -> some View {
-        self.modifier(ChipButtonModifier(isSelected: isSelected))
-    }
-}
