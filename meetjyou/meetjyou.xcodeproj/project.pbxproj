@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3600B30F2D79CD0E00140FEE /* s.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3600B30E2D79CD0C00140FEE /* s.swift */; };
+		3600B30F2D79CD0E00140FEE /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3600B30E2D79CD0C00140FEE /* MyPageView.swift */; };
 		3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */; };
 		361F4E7D2D472A0B00C89F28 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 361F4E7C2D472A0B00C89F28 /* ComposableArchitecture */; };
 		3637989D2D7C3A2F005BB597 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637989C2D7C3A27005BB597 /* View+.swift */; };
@@ -29,10 +29,12 @@
 		365B9A512D44D1FA004F1AB0 /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B9A462D44D1FA004F1AB0 /* Font+.swift */; };
 		365B9A522D44D1FA004F1AB0 /* MeetjyouColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B9A472D44D1FA004F1AB0 /* MeetjyouColor.swift */; };
 		365B9A572D44D24C004F1AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B9A552D44D24C004F1AB0 /* ContentView.swift */; };
+		FE769CA52D9670F100E74AED /* MyPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE769CA42D9670F100E74AED /* MyPostsView.swift */; };
+		FEA42CFA2D8900190068BCAE /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA42CF92D8900190068BCAE /* ProfileEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3600B30E2D79CD0C00140FEE /* s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s.swift; sourceTree = "<group>"; };
+		3600B30E2D79CD0C00140FEE /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
 		3608DDC22D673DEA008F4CE0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3637989C2D7C3A27005BB597 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		3637A4592D44A7DB0052B501 /* meetjyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meetjyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +57,17 @@
 		365B9A4A2D44D1FA004F1AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		365B9A552D44D24C004F1AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE39AE7D2D79C7C80035F130 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		FE769CA42D9670F100E74AED /* MyPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsView.swift; sourceTree = "<group>"; };
+		FEA42CF92D8900190068BCAE /* ProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FEF533A02D93C10300F7F348 /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3637A4562D44A7DB0052B501 /* Frameworks */ = {
@@ -81,7 +93,9 @@
 		3600B30D2D79CC0C00140FEE /* Mypage */ = {
 			isa = PBXGroup;
 			children = (
-				3600B30E2D79CD0C00140FEE /* s.swift */,
+				3600B30E2D79CD0C00140FEE /* MyPageView.swift */,
+				FEA42CF92D8900190068BCAE /* ProfileEditView.swift */,
+				FE769CA42D9670F100E74AED /* MyPostsView.swift */,
 			);
 			path = Mypage;
 			sourceTree = "<group>";
@@ -131,7 +145,7 @@
 		365B9A482D44D1FA004F1AB0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				3637989C2D7C3A27005BB597 /* View+.swift */,
+				FEF533A02D93C10300F7F348 /* View */,
 				365B9A452D44D1FA004F1AB0 /* Color+.swift */,
 				365B9A462D44D1FA004F1AB0 /* Font+.swift */,
 				365B9A472D44D1FA004F1AB0 /* MeetjyouColor.swift */,
@@ -185,6 +199,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FEF533A02D93C10300F7F348 /* View */,
 			);
 			name = meetjyou;
 			packageProductDependencies = (
@@ -260,12 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				365B9A502D44D1FA004F1AB0 /* Color+.swift in Sources */,
+				FEA42CFA2D8900190068BCAE /* ProfileEditView.swift in Sources */,
+				FE769CA52D9670F100E74AED /* MyPostsView.swift in Sources */,
 				365B9A572D44D24C004F1AB0 /* ContentView.swift in Sources */,
 				3647EB322D7026B700FB5D1A /* KakaoFeature.swift in Sources */,
 				365B9A512D44D1FA004F1AB0 /* Font+.swift in Sources */,
 				3637989D2D7C3A2F005BB597 /* View+.swift in Sources */,
 				3608DDC32D673DF0008F4CE0 /* OnboardingView.swift in Sources */,
-				3600B30F2D79CD0E00140FEE /* s.swift in Sources */,
+				3600B30F2D79CD0E00140FEE /* MyPageView.swift in Sources */,
 				365B9A522D44D1FA004F1AB0 /* MeetjyouColor.swift in Sources */,
 				3637A45D2D44A7DB0052B501 /* meetjyouApp.swift in Sources */,
 			);
@@ -398,10 +417,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"meetjyou/Preview Content\"";
-				DEVELOPMENT_TEAM = DZLBBL27FT;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = meetjyou/Info.plist;
@@ -417,6 +437,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CombineProject.meetjyou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -432,10 +453,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"meetjyou/Preview Content\"";
-				DEVELOPMENT_TEAM = DZLBBL27FT;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = meetjyou/Info.plist;
@@ -451,6 +473,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CombineProject.meetjyou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
